@@ -1,0 +1,63 @@
+
+Header{
+    background-color: beige;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+    .demo-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #eb2599;
+        padding: 20px ;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+
+
+    footer{
+        background-color: beige;
+    padding: 10px ;
+    margin: 10px;
+    border-radius: 7px;
+}
+    
+    aside{
+        background-color: chocolate;
+        padding: 5px;
+        margin-top: 5px;
+        
+    }
+    
+    h2{
+        background-color: #eb2599;
+        
+    }
+    
+    .card-button {
+        background-color: palevioletred;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    h4{background-color: #eb2599;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+    
+
+    }
+       
+    h5{
+        background-color: #eb2599;
+        border: none;
+    }

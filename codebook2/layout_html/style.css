@@ -1,0 +1,57 @@
+.display-demo {
+        background-color: antiquewhite;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 8px;
+        color:black;
+    }
+    .demo-element {
+        padding: 8px 12px;
+        margin: 5px;
+        background-color: #D312A3;
+        color: white;
+        border-radius: 4px;
+    
+    }
+    .inline-demo {
+        display: inline;
+        background-color: #28A745;
+    }
+    
+    .navigation-demo {
+        background-color: #aa1986;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .nav-item {
+        display: inline-block;
+        padding: 8px 16px;
+        color: rgb(233, 225, 229);
+        text-decoration: none;
+        border-radius: 4px;
+        margin-right: 5px;
+    }
+    .nav-item:hover {
+        background-color: #101111;
+        color: rgb(129, 11, 240);
+    }
+
+ section{
+    font: bolder;
+    color: green;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

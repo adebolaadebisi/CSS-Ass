@@ -1,0 +1,149 @@
+                 
+body{
+    background-color: white;
+}
+header{
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav{
+    background-color: rgb(42, 62, 85);
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav li a{
+    margin: 5px;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+li:hover{
+    background-color:blue;
+}
+.magazine-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-row:auto auto auto;
+    gap: 20px;
+    grid-template-areas:
+    "featured sidebar"
+    "ad side bar"
+    "footer footer";
+    margin-bottom: 10px;
+}
+article{
+    background-color: black;
+    border-radius:10px ;
+    padding: 20px;
+    margin-top: 10px ;
+}
+article h2{
+color: rgb(42, 116, 177);
+font-size: 20px;
+border-radius: 10px;
+padding: 20px;
+margin-top: 10px;
+}
+.sidebar-article{
+    color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.sidebar-article p{
+    font-size: 20px;
+}
+.sidebar-article h2{
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+}
+.grid-item{
+       background-color:whitesmoke;
+    border-radius:10px ;
+    padding: 20px;
+    margin-top: 10px ;
+    text-align: center;
+}
+footer{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
