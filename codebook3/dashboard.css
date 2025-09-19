@@ -1,0 +1,115 @@
+Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #2D4964;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+/* Card */
+.card {
+  position: relative;
+  width: 300px;
+  padding: 2rem;
+  background-color: #2C2929;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  animation: breathe 4s ease-in-out infinite;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+/* Notification Badge */
+.notification {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #D12511;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  animation: bounce 1s infinite;
+}
+/* Typewriter Effect */
+.typewriter h2 {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #34495E;
+  width: 0;
+  animation: typing 3s steps(22) forwards;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+/* Spinner */
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ECF0F1;
+  border-top: 4px solid #0C29CC;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 1rem auto;
+}
+/* Pulse Button */
+.pulse-btn {
+  background-color: #E93B52;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  animation: pulse 2s infinite;
+  margin: 1rem auto;
+  display: block;
+}
+/* Progress Bar */
+.progress-bar {
+  background-color: #242627;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+.progress {
+  height: 100%;
+  width: 0%;
+  background-color: #3498DB;
+  animation: slide 4s ease-in-out forwards;
+}
+/* Animations */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+@keyframes slide {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes breathe {
+  0%, 100% { background-color: #FFFFFF; }
+  50% { background-color: #F0F9F8; }
+}
+
+
+
+
+
+
